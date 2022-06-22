@@ -1,10 +1,10 @@
-using AspNetCoreMvcHtmx.Models;
+using DotNetCoreSaaS.Models;
 using Easy_Password_Validator;
 using Easy_Password_Validator.Models;
 using Microsoft.AspNetCore.Mvc;
-using static AspNetCoreMvcHtmx.Controllers.Constants;
+using static DotNetCoreSaaS.Controllers.Constants;
 
-namespace AspNetCoreMvcHtmx.Controllers;
+namespace DotNetCoreSaaS.Controllers;
 
 public class RegistrationController : Controller
 {
