@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  eventstore:
+    image: postgres:14
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: 'marten'
+      POSTGRES_PASSWORD: '123456'
+      POSTGRES_DB: 'DotNetCoreSaaS'     
+    volumes:
+      - ./.eventstoredata:/var/lib/postgresql/data

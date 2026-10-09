@@ -8,6 +8,8 @@ builder.Host.AddLogging();
 var logger = new SerilogLoggerFactory(Log.Logger)
   .CreateLogger<Program>();
 
+builder.Services.AddEventStore(builder.Configuration, logger);
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
