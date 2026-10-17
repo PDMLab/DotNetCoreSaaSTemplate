@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreSaaS", "DotNetCor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreSaaS.Tests", "DotNetCoreSaaS.Tests\DotNetCoreSaaS.Tests.csproj", "{E6BB0A13-D231-47E0-9CB7-8AA395B47528}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventSourcing", "EventSourcing\EventSourcing.csproj", "{B7444F31-625F-45B7-A040-373FCEAD9E9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{50B0F8C5-13F8-4F22-95E8-C7B4EA6E308C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{58AE519D-95E8-407F-B347-C8364EF5292B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +30,13 @@ Global
 		{E6BB0A13-D231-47E0-9CB7-8AA395B47528}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6BB0A13-D231-47E0-9CB7-8AA395B47528}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6BB0A13-D231-47E0-9CB7-8AA395B47528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7444F31-625F-45B7-A040-373FCEAD9E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7444F31-625F-45B7-A040-373FCEAD9E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7444F31-625F-45B7-A040-373FCEAD9E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7444F31-625F-45B7-A040-373FCEAD9E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B7444F31-625F-45B7-A040-373FCEAD9E9B} = {58AE519D-95E8-407F-B347-C8364EF5292B}
+		{46101C3D-4CC3-4C6D-A868-E8AFD9DF3403} = {50B0F8C5-13F8-4F22-95E8-C7B4EA6E308C}
 	EndGlobalSection
 EndGlobal
